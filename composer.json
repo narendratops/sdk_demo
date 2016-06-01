@@ -15,5 +15,24 @@
         "psr-0": {
             "HelloWorld": "src/"
         }
+    },
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "narendratops/sdk_demo",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/narendratops/sdk_demo.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "narendratops\\HelloWorld" : "src"
+                }
+            }
+        }
     }
+],
 }
